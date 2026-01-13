@@ -1,0 +1,121 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BACKGROUND */
+body {
+  background: #000;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* APP CONTAINER */
+.app {
+  width: 420px;
+  height: 600px;
+  margin: 40px auto;
+  background: #0f0f0f;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* HEADER */
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px solid #222;
+}
+
+/* CHAT AREA */
+.chat-box {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  background: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+}
+
+/* MESSAGE COMMON */
+.message {
+  max-width: 65%;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+/* RECEIVER */
+.left {
+  background: #262626;
+  color: #fff;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+/* SENDER */
+.right {
+  background: #1d9bf0; /* Instagram / Twitter blue */
+  color: #fff;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+/* TIME */
+.time {
+  display: block;
+  font-size: 10px;
+  margin-top: 4px;
+  opacity: 0.7;
+  text-align: right;
+}
+
+/* INPUT AREA */
+.input-box {
+  display: flex;
+  padding: 10px;
+  background: #000;
+  border-top: 1px solid #222;
+}
+
+.input-box input {
+  flex: 1;
+  background: #111;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.input-box button {
+  margin-left: 8px;
+  background: #1d9bf0;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-box button:hover {
+  opacity: 0.9;
+}
+
+.username {
+  font-size: 11px;
+  color: #aaa;
+  margin-bottom: 2px;
+  display: block;
+}
